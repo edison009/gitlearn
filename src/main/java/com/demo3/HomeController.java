@@ -11,7 +11,11 @@ public class HomeController {
 	@RequestMapping("/")
 	public String hello()
 	{
+<<<<<<< HEAD
 		System.out.println("COmes Here first online commit merge conflict two");
+=======
+		System.out.println("COmes Here first online commit merge conflict one");
+>>>>>>> 7825c25 (merge one)
 		return "hello";
 	}
 
