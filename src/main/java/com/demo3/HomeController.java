@@ -11,7 +11,7 @@ public class HomeController {
 	@RequestMapping("/")
 	public String hello()
 	{
-		System.out.println("COmes Here first online commit");
+		System.out.println("COmes Here first online commit merge conflict two");
 		return "hello";
 	}
 
